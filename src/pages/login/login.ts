@@ -28,10 +28,10 @@ export class LoginPage {
   ionViewDidLoad()
   {
     this.androidFingerprintAuth.isAvailable().then(() => {
-      alert("Fingerprint available on this device!");
+      // alert("Fingerprint available on this device!");
     })
     .catch(() => {
-      alert("Fingerprint is unavailable on this device!");
+      // alert("Fingerprint is unavailable on this device!");
     })
   }
 
